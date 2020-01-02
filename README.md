@@ -11,7 +11,7 @@ docker create \
 	-e APP_NAME=xterm `optional` \
 	-p 5700:5700 \
 	-v </path/to/appdata/config>:/config \
-  -v </path/to/data>:/mnt \
+  	-v </path/to/data>:/mnt \
 	--restart unless-stopped \
 	christopher102994/docker-filezilla
 ```
