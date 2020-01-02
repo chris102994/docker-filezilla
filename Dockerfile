@@ -9,7 +9,7 @@ ENV APP_NAME=FileZilla
 RUN echo "##### Downloading Runtime Packages #####" && \
 		apk add --no-cache \
 			filezilla && \
-	echo "##### App Setup #####" && \
+    echo "##### App Setup #####" && \
 		sed -i 's#APP_NAME#FileZilla#g' /etc/xdg/openbox/menu.xml && \
 		sed -i 's#APP_ICON_LOC#/usr/share/icons/hicolor/16x16/apps/filezilla.png#g' /etc/xdg/openbox/menu.xml && \
 		sed -i 's#APP_COMMAND#filezilla#g' /etc/xdg/openbox/menu.xml && \
@@ -20,6 +20,3 @@ RUN echo "##### Downloading Runtime Packages #####" && \
 EXPOSE 5700 
 #Work Dir
 WORKDIR /mnt
-# Add Local Files
-# COPY rootfs/ /
-
