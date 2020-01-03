@@ -6,14 +6,14 @@
 
 ## Docker
 ```
-docker create \
+docker run \
 	--name=docker-filezilla \
 	-e APP_NAME=xterm `optional` \
 	-p 5700:5700 \
 	-v </path/to/appdata/config>:/config \
   	-v </path/to/data>:/mnt \
 	--restart unless-stopped \
-	christopher102994/docker-filezilla
+	christopher102994/docker-filezilla:alpine-3.10
 ```
 
 ## Parameters
