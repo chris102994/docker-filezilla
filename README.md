@@ -8,7 +8,6 @@
 ```
 docker run \
 	--name=docker-filezilla \
-	-e APP_NAME=xterm `optional` \
 	-p 5700:5700 \
 	-v </path/to/appdata/config>:/config \
   	-v </path/to/data>:/mnt \
