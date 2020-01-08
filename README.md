@@ -6,7 +6,7 @@
 
 ## Outside Packages
 * Built on my [Base GUI Image](https://github.com/chris102994/docker-base-image-gui)
-  * [FileZilla](https://filezilla-project.org/) - A cross-platform pgraphical FTP/S and S/FTP file management tool.
+  * [FileZilla](https://filezilla-project.org/) - A cross-platform graphical FTP/S and S/FTP file management tool.
 
 ## Docker
 ```
