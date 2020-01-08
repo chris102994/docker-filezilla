@@ -1,4 +1,8 @@
- [![Build Status](https://travis-ci.com/chris102994/docker-filezilla.svg?branch=master)](https://travis-ci.com/chris102994/docker-filezilla)
+## [chris102994/docker-docker-filezilla](https://github.com/chris102994/docker-filezilla)
+
+[![https://filezilla-project.org/](https://upload.wikimedia.org/wikipedia/commons/0/01/FileZilla_logo.svg)](https://filezilla-project.org/)
+
+[![Build Status](https://travis-ci.com/chris102994/docker-filezilla.svg?branch=master)](https://travis-ci.com/chris102994/docker-filezilla)
 
 ## Outside Packages
 * Built on my [Base GUI Image](https://github.com/chris102994/docker-base-image-gui)
@@ -23,3 +27,9 @@ Container specific parameters passed at runtime. The format is `<external>:<inte
 | -p 5700 | The web encrypted UI port. |
 | -v /config | The directory where the application will store configuration information. |
 | -v /mnt | The path that data that you wish to transfer will be mounted to. |
+
+## Application Setup
+
+The admin interface is available at `http://<ip>:<port>/`
+
+Access the mounted files within the web interface at `/mnt`
