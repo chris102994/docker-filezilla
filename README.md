@@ -3,6 +3,9 @@
 [![https://filezilla-project.org/](https://upload.wikimedia.org/wikipedia/commons/0/01/FileZilla_logo.svg)](https://filezilla-project.org/)
 
 [![Build Status](https://travis-ci.com/chris102994/docker-filezilla.svg?branch=master)](https://travis-ci.com/chris102994/docker-filezilla)
+ [![Image Size](https://img.shields.io/microbadger/image-size/christopher102994/docker-filezilla/alpine-3.10)](https://hub.docker.com/repository/docker/christopher102994/docker-filezilla)
+ [![Image Layers](https://img.shields.io/microbadger/layers/christopher102994/docker-filezilla/alpine-3.10)](https://hub.docker.com/repository/docker/christopher102994/docker-filezilla)
+ [![Image Pulls](https://img.shields.io/docker/pulls/christopher102994/docker-filezilla)](https://hub.docker.com/repository/docker/christopher102994/docker-filezilla)
 
 ## Outside Packages
 * Built on my [Base GUI Image](https://github.com/chris102994/docker-base-image-gui)
