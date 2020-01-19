@@ -17,7 +17,9 @@ RUN echo "##### Downloading Runtime Packages #####" && \
 		sed -i 's#APP_COMMAND#/usr/bin/filezilla --local=/storage#g' /app/start_app.sh && \
 		cp /usr/share/icons/hicolor/16x16/apps/filezilla.png /etc/noVNC/app/images/icons/novnc-16x16.png && \
 		mkdir -p \
-			/storage
+			/storage && \
+		chown -R 900:900 /storage && \
+		chmod -R 0755 /storage
 
 #Work Dir
 WORKDIR /mnt
