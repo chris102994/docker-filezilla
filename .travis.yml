@@ -18,6 +18,7 @@ env:
   - DOCKER_REPO=christopher102994
   - DOCKER_NAME=docker-filezilla
   - DOCKER_TAG=alpine-3.10
+  - BASE_IMAGE=christopher102994/docker-base-img-gui:alpine3.10
 
 script:
   - tools/scripts/make_container.sh
