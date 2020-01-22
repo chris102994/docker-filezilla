@@ -9,7 +9,7 @@ LABEL org.label-schema.vcs-ref=$VCS_REF \
 ENV APP_NAME=FileZilla
 
 RUN echo "##### Downloading Runtime Packages #####" && \
-		install \
+		inst-pkg \
 			filezilla && \
     echo "##### App Setup #####" && \
 		sed -i 's#APP_NAME#FileZilla#g' /etc/xdg/openbox/menu.xml && \
