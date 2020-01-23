@@ -13,8 +13,6 @@ RUN echo "##### Downloading Runtime Packages #####" && \
 		inst-pkg \
 			filezilla && \
     echo "##### App Setup #####" && \
-		sed -i 's#APP_NAME#FileZilla#g' /etc/xdg/openbox/menu.xml && \
-		sed -i 's#APP_ICON_LOC#/usr/share/icons/hicolor/16x16/apps/filezilla.png#g' /etc/xdg/openbox/menu.xml && \
 		sed -i 's#APP_COMMAND#/usr/bin/filezilla --local=/storage#g' /app/start_app.sh && \
 		cp /usr/share/icons/hicolor/16x16/apps/filezilla.png /etc/noVNC/app/images/icons/novnc-16x16.png && \
 		mkdir -p \
