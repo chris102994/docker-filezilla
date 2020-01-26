@@ -19,6 +19,6 @@ RUN echo "##### Downloading Runtime Packages #####" && \
 			/storage && \
 		chown -R 900:900 /storage && \
 		chmod -R 0755 /storage
-
+VOLUME		["/mnt"]
 #Work Dir
 WORKDIR /mnt
