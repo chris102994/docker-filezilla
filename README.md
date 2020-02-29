@@ -18,7 +18,7 @@ docker run \
 	-v </path/to/appdata/config>:/config \
   	-v </path/to/data>:/mnt \
 	--restart unless-stopped \
-	christopher102994/docker-filezilla:alpine-3.10
+	christopher102994/docker-filezilla:latest
 ```
 
 ## Parameters
