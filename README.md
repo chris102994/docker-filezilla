@@ -5,6 +5,8 @@
 [![Build Status](https://travis-ci.com/chris102994/docker-filezilla.svg?branch=master)](https://travis-ci.com/chris102994/docker-filezilla)
 [![Microbadger Size & Layers](https://images.microbadger.com/badges/image/christopher102994/docker-filezilla.svg)](https://microbadger.com/images/christopher102994/docker-filezilla "Get your own image badge on microbadger.com")
  [![Image Pulls](https://img.shields.io/docker/pulls/christopher102994/docker-filezilla)](https://hub.docker.com/repository/docker/christopher102994/docker-filezilla)
+ [![Latest](https://images.microbadger.com/badges/version/christopher102994/docker-filezilla:latest.svg)](https://microbadger.com/images/christopher102994/docker-filezilla:latest "Get your own version badge on microbadger.com")
+
 
 ## Outside Packages
 * Built on my [Base GUI Image](https://github.com/chris102994/docker-base-image-gui)
