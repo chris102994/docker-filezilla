@@ -20,16 +20,16 @@ jobs:
       - git submodule update --init --remote
       - |
         tools/build/build_container.sh \
-        -e versions/alpine-3.10.env \
-        -e versions/docker-filezilla.env \
-        -b true \
-        -p true
+        --envfile versions/alpine-3.10.env \
+        --envfile versions/docker-filezilla.env \
+        --build \
+        --pushdr
 
   - stage: Git Tag & Docker Hub README
     script: 
       - git submodule update --init --remote
       - |
         tools/build/build_container.sh \
-        -e versions/docker-filezilla.env \
-        -g true \
-        -r true
+        --envfile versions/docker-filezilla.env \
+        --pushgt \
+        --pushrm
